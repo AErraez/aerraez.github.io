@@ -1,0 +1,26 @@
+h1 {
+    font-style: italic;
+}
+
+#secciondatos {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+#seccionredes {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    font-weight: 600;
+}
