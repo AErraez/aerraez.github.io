@@ -60,12 +60,9 @@ nav ul {
 
 #seccioncontactenos {
     display: grid;
-    grid-template-areas: "a a a a a a"
-                         "b b c c c c"
-                         "d d e e e e"
-                         "d d e e e e"
-                         "d d e e e e"
-                         "d d e e e e";
+    grid-template-areas: "a a a a"
+                         "b b c c"
+                         "d d e e";
 }
 
 
