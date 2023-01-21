@@ -1,0 +1,76 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* El elemento header tendrá una imagen de fondo */
+
+header {
+    background-size: cover !important;
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+        ),
+        url("../images/background.png");
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    padding-top: 400px;
+}
+
+header .seccion {
+    display: grid;
+    grid-template-areas:
+        "a a"
+        "b c";
+}
+
+header h1 {
+    grid-area: a;
+    font-size: 3em;
+}
+
+header p {
+    grid-area: b;
+}
+
+#galeria {
+    grid-area: c;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#imagenes {
+    display: flex;
+    justify-content: space-between;
+}
+
+#imagenes a {
+    box-shadow: 0 3px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+    border: 10px solid white;
+    width: 16%;
+    height: 40%;
+}
+
+#galeria img {
+    border: 5px solid white;
+    width: 20%;
+    height: 80%;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+}
+.seccion {
+    width: 80%;
+    margin: 1% auto;
+}
