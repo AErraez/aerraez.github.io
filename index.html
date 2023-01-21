@@ -141,30 +141,36 @@
       <h3 id="datos">Sus datos</h3>
 
       <form id="formulario">
-        <label for="nombre">Nombres:</label>
-        <input type="text" name="nombre" id="nombre"> <br>
-        <label for="nombre">Apellidos:</label>
-        <input type="text" name="apellidos" id="apellidos"><br>
 
-        <label>Seleccione su rango de edad</label><br>
+        <div id="personal">
+          <span><label for="nombre">Nombres:</label>
+          <input type="text" name="nombre" id="nombre"></span> 
+          <span><label for="nombre">Apellidos:</label>
+          <input type="text" name="apellidos" id="apellidos"></span>
+        </div>
 
-          <input type="radio" id="opcion1" name="edad" value="menor25">
-          <label for="opcion1"> menor a 25 años</label> <br>
-          <input type="radio" id="opcion2" name="edad" value="entre26y20">
-          <label for="opcion2"> entre 26 y 30 años</label> <br>
-          <input type="radio" id="opcion3" name="edad" value="mayor31">
-          <label for="opcion3"> mayor a 31 años</label><br><br>
+        <div id="edad"><label >Seleccione su rango de edad</label>
 
-        <label>Seleccione el tipo de servicio a consultar</label><br>
-          <input type="checkbox" name="frontend" id="frontend">
-          <label for="frontend">Frontend Dev</label><br>
-          <input type="checkbox" name="backend" id="backend">
-          <label for="backend">Backend Dev</label><br>
-          <input type="checkbox" name="scrum" id="scrum">
-          <label for="scrum">Desarrollo de software</label><br>
-          <input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label><br>
+          <span><input type="radio" id="opcion1" name="edad" value="menor25">
+          <label for="opcion1"> menor a 25 años</label> </span>
+          <span><input type="radio" id="opcion2" name="edad" value="entre26y20">
+          <label for="opcion2"> entre 26 y 30 años</label> </span>
+          <span><input type="radio" id="opcion3" name="edad" value="mayor31">
+          <label for="opcion3"> mayor a 31 años</label></span>
+        </div>
 
-        <button type="submit">Enviar</button>
+        <div id="servicio"><label >Seleccione el tipo de servicio a consultar</label>
+          <span><input type="checkbox" name="frontend" id="frontend">
+          <label for="frontend">Frontend Dev</label></span>
+          <span><input type="checkbox" name="backend" id="backend">
+          <label for="backend">Backend Dev</label></span>
+          <span><input type="checkbox" name="scrum" id="scrum">
+          <label for="scrum">Desarrollo de software</label></span>
+          <span><input type="checkbox" name="cicd" id="cicd">
+          <label for="cicd">CI/CD</label></span>
+        </div>
+
+        <div id="envio"><button  type="submit">Enviar</button></div>
       </form>
 
 
@@ -177,11 +183,11 @@
 
     <footer>
       <address>
-        Email: <a href="mailto:aerraez2000@gmail.com">aerraez2000@gmail.com</a><br>
-        Tel: <a href="tel:+5930969436806">+593096943680</a><br><br>
-        Seguros Equinoccial<br>
-        Guayaquil<br>
-        Ecuador
+        <span> <a href="mailto:aerraez2000@gmail.com">aerraez2000@gmail.com</a></span>
+        <span>Tel: <a href="tel:+5930969436806">+593096943680</a></span>
+        <span>Seguros Equinoccial</span>
+        <span>Guayaquil</span>
+        <span>Ecuador</span>
       </address>
     </footer>
 

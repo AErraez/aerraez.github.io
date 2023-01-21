@@ -50,6 +50,9 @@ section h2 {
 
 nav ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #secciondatos p {
@@ -65,14 +68,9 @@ nav ul {
                          "d d e e";
 }
 
-
 #seccioncontactenos h2{
     grid-area: a;
 }
-#formulario {
-    grid-area: d;
-}
-
 #datos {
     grid-area: b;
 }
@@ -83,4 +81,46 @@ nav ul {
 
 #mapa {
     grid-area: e;
+}
+
+
+#formulario {
+    grid-area: d;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+#formulario #personal {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+
+#formulario #edad {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+#formulario #servicio {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+#formulario span{
+    display: flex;
+    column-gap: 1%;
+}
+
+#formulario #personal span{
+    column-gap: 5%;
+}
+
+footer address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
