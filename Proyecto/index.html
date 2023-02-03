@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href= #trailer>Trailer</a>
+                        <a class="nav-link active" aria-current="page" href=#trailer>Trailer</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Accolades</a>
@@ -86,63 +86,108 @@
 
         <div class="row" id="gallery">
             <div class="col-12 py-2" style="background-color: #29323d;">
-                <h2 class="text-center">Gallery</h2>
-<!--                 <div id="myCarousel" class="row carousel slide" data-bs-ride="carousel" bis_skin_checked="1">
-                    <div class="carousel-indicators" bis_skin_checked="1">
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
-                    </div>
-                    <div class="carousel-inner" bis_skin_checked="1">
-                    <div class="carousel-item" bis_skin_checked="1">
-                        <img class="d-block w-100" src="Img/film__18296-whiplash--hi_res-e7fab42b.jpg">
-                    </div>
-                    <div class="carousel-item" bis_skin_checked="1">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
-                        <div class="container" bis_skin_checked="1">
-                        <div class="carousel-caption" bis_skin_checked="1">
-                            <h1>Another example headline.</h1>
-                            <p>Some representative placeholder content for the second slide of the carousel.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <div class="row">
+                    <h2 class="text-center">Gallery</h2>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="Img/film__18296-whiplash--hi_res-e7fab42b.jpg"
+                                    alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="Img/image_02tshirtdrumshot-1200x675.jpg"
+                                    alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="Img/l-intro-1667007253.jpg" alt="Third slide">
+                            </div>
                         </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item active" bis_skin_checked="1">
-                    
-                    </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
-                </div> -->
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="Img/film__18296-whiplash--hi_res-e7fab42b.jpg" alt="First slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="Img/image_02tshirtdrumshot-1200x675.jpg" alt="Second slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="Img/Whiplash-2014-1.jpg" alt="Third slide">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
 
-                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
             </div>
+        </div>
+
+        <div class="row" id="reviews" style="background-color: #29323d;">
+            <div class="col-12 py-2">
+                <div class="row">
+                    <h2 class="text-center">Reviews</h2>
+                </div>
+            </div>
+            <div class="col-6 py-3">
+                <div class="row">
+                    <p class="text-center">"One of the best movies I've ever seen"</p>
+                    <span class="text-secondary fw-light">Mr Know it All</span>
+                </div>
+            </div>
+            <div class="col-6 py-3">
+                <div class="row">
+                    <p class="text-center">"All time great performance from J.K. Simmons"</p>
+                    <span class="text-secondary fw-light">J.K. Simmons</span>
+                </div>
+            </div>
+            <div class="col-4 py-3">
+                <div class="row">
+                    <p class="text-center">"Oscar worthy"</p>
+                    <span class="text-secondary fw-light">Chris Stuckdude</span>
+                </div>
+            </div>
+            <div class="col-4 py-3">
+                <div class="row">
+                    <p class="text-center">"10/10"</p>
+                    <span class="text-secondary fw-light">The Reviewer</span>
+                </div>
+            </div>
+            <div class="col-4 py-3">
+                <div class="row">
+                    <p class="text-center">"Brilliant"</p>
+                    <span class="text-secondary fw-light">Antarctica</span>
+                </div>
+            </div>
+
+            <div class="row" id="streaming">
+                <div class="col-12 py-2">
+                    <div class="row text-center">
+                        <h2>Streaming Now</h2>
+                    </div>
+                </div>
+                <div class="col-6 py-2">
+                    <div class="row text-center">
+                        <a href="https://www.netflix.com/title/70299275"><img class="img-fluid"
+                                src="Img/stream/netflix-logo-png-11593869496jqso5gxgsy.png"></a>
+                    </div>
+                </div>
+                <div class="col-6 py-2">
+                    <div class="row">
+                        <a href="https://www.hulu.com/movie/whiplash-8dbcdc53-8575-46c2-b187-9f68592befb6"><img class="img-fluid"
+                            src="Img/stream/Hulu_Logo.svg.png"></a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
         </div>
     </main>
 
