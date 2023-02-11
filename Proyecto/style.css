@@ -1,5 +1,6 @@
+
 h2 {
-    font-family: sans-serif !important;
+    font-family: 'Times New Roman', Times, serif,  !important;
     color: #798da3;
     font-weight: bold;
 }
@@ -8,3 +9,37 @@ p {
     color: #c9d3dd !important;
 }
 
+hr {
+    color: #c9d3dd !important;
+    margin: 0.5rem 0.5rem;
+}
+.descrip {
+    align-items: center;
+}
+
+div {
+    padding: auto 40% !important;
+}
+
+
+
+h2{
+    font-family: "franklin-gothic-urw-cond",arial !important;
+    text-align: left !important;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+h2::after{
+    background-color: #cf1414;
+    position: absolute;
+    top: 0.2rem;
+    left: 0rem;
+    width: 0.6rem;
+    height: 2rem;
+    content: '';
+    box-sizing: inherit;
+}
+iframe {
+    height: 15rem;
+}
