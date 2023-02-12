@@ -1,33 +1,44 @@
 
-h2 {
-    font-family: 'Times New Roman', Times, serif,  !important;
-    color: #798da3;
-    font-weight: bold;
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
+
 
 p {
     color: #c9d3dd !important;
 }
 
+#img-head {
+    animation: fadeIn 9s;
+}
 hr {
     color: #c9d3dd !important;
     margin: 0.5rem 0.5rem;
 }
-.descrip {
-    align-items: center;
-}
+
 
 div {
     padding: auto 40% !important;
 }
 
+h1{
+    font-family: 'Sofia Sans Condensed', sans-serif !important;
+    font-weight:700;
+    font-size: 3.5rem;
+    animation: fadeIn 4s;
+}
 
 
 h2{
-    font-family: "franklin-gothic-urw-cond",arial !important;
+    font-family: 'Sofia Sans Condensed', sans-serif !important;
     text-align: left !important;
     position: relative;
     margin-bottom: 1.5rem;
+    color: #798da3;
+    font-weight: 600;
+    font-size: 2rem;
+    
 }
 
 h2::after{
@@ -42,4 +53,21 @@ h2::after{
 }
 iframe {
     height: 15rem;
+}
+
+#soundtrack h3 {
+    color: #ffffff !important;
+}
+
+.card-cover {
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #29323d;
 }
