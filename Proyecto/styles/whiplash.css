@@ -22,6 +22,9 @@ div {
     padding: auto 40% !important;
 }
 
+header img {
+    animation: fadeIn 2s;
+}
 h1{
     font-family: 'Sofia Sans Condensed', sans-serif !important;
     font-weight:700;

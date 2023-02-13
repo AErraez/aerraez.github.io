@@ -1,0 +1,68 @@
+h1 {
+    color: #FFC857;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 3rem !important;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    color: white;
+}
+header {
+    background-color: #0D1B2A
+}
+
+#headcarousel img{
+   
+    padding-bottom: 0 !important;
+}
+
+.caption {
+    color: white;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5));
+    padding-bottom: 0.1%;
+    
+}
+
+main {
+    background-color: rgb(4, 77, 77);
+}
+
+#recent img {
+    vertical-align: middle !important;
+    border: #0D1B2A 4px solid;
+    width: 100% !important;
+    
+}
+
+#recent h6 {
+    
+    vertical-align: middle !important;
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+#actors img{
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#actors {
+    align-items: start !important;
+}
+#actors p {
+    padding-top: 3%;
+}
