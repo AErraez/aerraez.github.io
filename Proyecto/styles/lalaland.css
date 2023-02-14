@@ -1,0 +1,89 @@
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@font-face {
+    font-family: yasashi;
+    src: url(Yasashii\ W01\ Bold.ttf);
+}
+
+@font-face {
+    font-family: neutralface;
+    src: url(Neutraface\ Text\ Demi.otf) format('opentype');
+}
+
+header {
+    background-color: #110047;
+}
+p {
+    color: #fbfbff!important;
+}
+
+#img-head {
+    animation: fadeIn 9s;
+}
+hr {
+    color: #c9d3dd !important;
+    margin: 0.5rem 0.5rem;
+}
+
+
+div {
+    padding: auto 40% !important;
+}
+
+header img {
+    animation: fadeIn 2s;
+}
+h1{
+    font-family: 'yasashi' !important;
+    font-weight:700;
+    font-size: 3.5rem;
+    animation: fadeIn 4s;
+    color: white;
+}
+
+
+h2{
+    font-family: 'neutralface' !important;
+    text-align: left !important;
+    position: relative;
+    margin-bottom: 1.5rem;
+    color: #fdff03;
+    font-weight: 600;
+    font-size: 2rem;
+    
+}
+
+h2::after{
+    background-color: #cf1414;
+    position: absolute;
+    top: 0.2rem;
+    left: 0rem;
+    width: 0.6rem;
+    height: 2rem;
+    content: '';
+    box-sizing: inherit;
+}
+iframe {
+    height: 15rem;
+}
+
+#soundtrack h3 {
+    color: #ffffff !important;
+}
+
+.card-cover {
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #2b1557
+}
