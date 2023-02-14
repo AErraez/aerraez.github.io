@@ -4,6 +4,9 @@
     100% {opacity: 1;}
 }
 
+header {
+    background-color: black;
+}
 
 p {
     color: #c9d3dd !important;

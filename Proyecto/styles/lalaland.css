@@ -87,3 +87,7 @@ a {
 body {
     background-color: #2b1557
 }
+
+span {
+    color: #a9a7a7 !important;
+}
