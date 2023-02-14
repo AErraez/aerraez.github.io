@@ -58,7 +58,7 @@ h2{
 }
 
 h2::after{
-    background-color: #cf1414;
+    background-color: #2b2ec9;
     position: absolute;
     top: 0.2rem;
     left: 0rem;
